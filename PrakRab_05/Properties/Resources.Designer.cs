@@ -59,23 +59,5 @@ namespace PrakRab_05.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на Первые криптографические системы были изобретены в глубокой древности, но не перестали развиваться в наши дни.
-        /// </summary>
-        internal static string file1 {
-            get {
-                return ResourceManager.GetString("file1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Ищет локализованную строку, похожую на .
-        /// </summary>
-        internal static string file2 {
-            get {
-                return ResourceManager.GetString("file2", resourceCulture);
-            }
-        }
     }
 }

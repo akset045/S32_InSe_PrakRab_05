@@ -68,8 +68,8 @@ namespace PrakRab_05
             if (radioButton1.Checked)
             {
                 string s;
-                StreamReader sr = new StreamReader(Properties.Resources.file1);
-                StreamWriter sw = new StreamWriter(Properties.Resources.file2);
+                StreamReader sr = new StreamReader("file1.txt");
+                StreamWriter sw = new StreamWriter("file2.txt");
                 while (!sr.EndOfStream)
                 {
                     s = sr.ReadLine();
@@ -83,8 +83,8 @@ namespace PrakRab_05
                 if (textBox1.Text.Length > 0)
                 {
                     string s;
-                    StreamReader sr = new StreamReader(Properties.Resources.file1);
-                    StreamWriter sw = new StreamWriter(Properties.Resources.file2);
+                    StreamReader sr = new StreamReader("file1.txt");
+                    StreamWriter sw = new StreamWriter("file2.txt");
                     while (!sr.EndOfStream)
                     {
                         s = sr.ReadLine();
@@ -103,8 +103,8 @@ namespace PrakRab_05
             if (radioButton1.Checked)
             {
                 string s;
-                StreamReader sr = new StreamReader(Properties.Resources.file1);
-                StreamWriter sw = new StreamWriter(Properties.Resources.file2);
+                StreamReader sr = new StreamReader("file1.txt");
+                StreamWriter sw = new StreamWriter("file2.txt");
                 while (!sr.EndOfStream)
                 {
                     s = sr.ReadLine();
@@ -118,8 +118,8 @@ namespace PrakRab_05
                 if (textBox1.Text.Length > 0)
                 {
                     string s;
-                    StreamReader sr = new StreamReader(Properties.Resources.file1);
-                    StreamWriter sw = new StreamWriter(Properties.Resources.file2);
+                    StreamReader sr = new StreamReader("file1.txt");
+                    StreamWriter sw = new StreamWriter("file2.txt");
                     while (!sr.EndOfStream)
                     {
                         s = sr.ReadLine();
