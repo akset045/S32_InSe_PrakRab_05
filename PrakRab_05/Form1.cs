@@ -20,7 +20,7 @@ namespace PrakRab_05
 
         public Form1()
         { InitializeComponent();
-          N = characters.Length;
+          N = characters.Length; // 66666
         }
 
         private string Encode(string input, string keyword)
