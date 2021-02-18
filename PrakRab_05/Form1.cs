@@ -131,12 +131,7 @@ namespace PrakRab_05
                 else MessageBox.Show("Введите ключевое слово!");
             }
         }
-    }
-
-
-        
-
-    
+    }    
 }
 
 
