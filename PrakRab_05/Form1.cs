@@ -20,7 +20,7 @@ namespace PrakRab_05
 
         public Form1()
         { InitializeComponent();
-          N = characters.Length; // 66666
+          N = characters.Length;
         }
 
         private string Encode(string input, string keyword)
@@ -68,8 +68,8 @@ namespace PrakRab_05
             if (radioButton1.Checked)
             {
                 string s;
-                StreamReader sr = new StreamReader("file1.txt");
-                StreamWriter sw = new StreamWriter("file2.txt");
+                StreamReader sr = new StreamReader(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file1.txt");
+                StreamWriter sw = new StreamWriter(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file2.txt");
                 while (!sr.EndOfStream)
                 {
                     s = sr.ReadLine();
@@ -83,8 +83,8 @@ namespace PrakRab_05
                 if (textBox1.Text.Length > 0)
                 {
                     string s;
-                    StreamReader sr = new StreamReader("file1.txt");
-                    StreamWriter sw = new StreamWriter("file2.txt");
+                    StreamReader sr = new StreamReader(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file1.txt");
+                    StreamWriter sw = new StreamWriter(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file2.txt");
                     while (!sr.EndOfStream)
                     {
                         s = sr.ReadLine();
@@ -103,8 +103,8 @@ namespace PrakRab_05
             if (radioButton1.Checked)
             {
                 string s;
-                StreamReader sr = new StreamReader("file1.txt");
-                StreamWriter sw = new StreamWriter("file2.txt");
+                StreamReader sr = new StreamReader(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file1.txt");
+                StreamWriter sw = new StreamWriter(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file2.txt");
                 while (!sr.EndOfStream)
                 {
                     s = sr.ReadLine();
@@ -118,8 +118,8 @@ namespace PrakRab_05
                 if (textBox1.Text.Length > 0)
                 {
                     string s;
-                    StreamReader sr = new StreamReader("file1.txt");
-                    StreamWriter sw = new StreamWriter("file2.txt");
+                    StreamReader sr = new StreamReader(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file1.txt");
+                    StreamWriter sw = new StreamWriter(@"C:\Users\Student\source\repos\akset045\S32_InSe_PrakRab_05\PrakRab_05\Resources\file2.txt");
                     while (!sr.EndOfStream)
                     {
                         s = sr.ReadLine();
