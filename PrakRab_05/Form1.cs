@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection;
 
 namespace PrakRab_05
 {
@@ -32,7 +33,8 @@ namespace PrakRab_05
             {
                 int c = (Array.IndexOf(characters, symbol) + Array.IndexOf(characters, keyword[keyword_index])) % N;
                 result += characters[c];
-                keyword_index++; if ((keyword_index + 1) == keyword.Length) keyword_index = 0;
+                keyword_index++;
+                if ((keyword_index + 1) == keyword.Length) keyword_index = 0;
             }
             return result;
         }
